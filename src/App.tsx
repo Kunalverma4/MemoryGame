@@ -5,7 +5,7 @@ import "./App.css";
 export default function App() {
   const [card, setCard] = useState<[number[], number[], number[]]>([
     [0, 1, 3, 2],
-    [2, 1, 0, 4],
+    [2, 1, 5, 4],
     [4, 3, 5, 0],
   ]);
   const [win, setWin] = useState("");
