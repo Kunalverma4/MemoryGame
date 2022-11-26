@@ -25,6 +25,7 @@ export default function App() {
       if (prevValue == card[rowIndex][colIndex]) {
         setWin("You Win");
       } else {
+        setWin("");
         setInterval(() => {
           window.location.reload();
         }, 500);
